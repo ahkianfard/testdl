@@ -1,0 +1,41 @@
+name: Download Video
+
+on:
+  workflow_dispatch:  # Manual trigger only
+  # schedule:
+  #   - cron: '0 0 * * *'  # Optional: run daily at midnight
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install dependencies
+      run: npm install axios
+    
+    - name: Run video downloader
+      run: node download-video.js
+    
+    - name: Upload video artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: downloaded-video
+        path: downloads/
+        retention-days: 90
+        if-no-files-found: error
+    
+    - name: Display download info
+      run: |
+        echo "📁 Downloads folder contents:"
+        ls -lh downloads/
+        echo ""
+        echo "💾 Total size:"
+        du -sh downloads/
