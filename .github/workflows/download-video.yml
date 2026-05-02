@@ -4,7 +4,9 @@ on:
   workflow_dispatch:  # Manual trigger
   # schedule:
   #   - cron: '0 0 * * *'  # Optional: run daily
-
+permissions:
+  contents: write
+  
 jobs:
   download:
     runs-on: ubuntu-latest
