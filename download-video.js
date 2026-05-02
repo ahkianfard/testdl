@@ -9,7 +9,7 @@ const streamPipeline = promisify(pipeline);
 // ============================================
 // HARDCODE YOUR VIDEO LINK HERE
 // ============================================
-const VIDEO_URL = 'https://cdn4.telesco.pe/file/eca474e16c.mp4?token=WA8iZu15AfqGZDk6aIFTHnu7OLy3RqZt5m7M695QQ3QnPLJgXlJjOsLKs5ZRnfS07hpIzdzoviJsyTHCS3RsD9JCRgY1W4mHbvpGBkozPWe7GpoghD5i1TaU_7eYapUDaVrFx3BgcMhvJR4DGjuRQA4rqm5km8iy_j57UXgi7QY6sw94UEvQZq2C4Wsg1JjFIUcuIgddP5b0MvA05VssorSjtWWRbh0XYki6Mpi3XstBdZS6TyuSBgQMPmnkr9BKGVORvKSRKIae6irbrmjzQVCAeVYjZSGzzbwhuS21a3Qu8GQFOvOR-_gU2Vyu8Eupi_mtrSdzhKbzg0zM8TpU_w';
+const VIDEO_URL = 'https://caspian13.cdn.asset.aparat.com/aparat-video/3f42ca669647143b96562455df14b5bb70197845-144p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjFmYjEwNzE1Nzc1MjY0YTk4NzU3ZGM5MTQxYjVlNTJjIiwiZXhwIjoxNzc3NzY0MzQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.xc8Wxm14gOOZz674Ac5s5YTDy0v1ClQqmzuDT1E9nNw';
 // ============================================
 
 // Optional: Custom filename (leave empty to auto-detect)
