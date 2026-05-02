@@ -9,7 +9,7 @@ const streamPipeline = promisify(pipeline);
 // ============================================
 // HARDCODE YOUR VIDEO LINK HERE
 // ============================================
-const VIDEO_URL = 'https://cdn4.telesco.pe/file/f420f32a63.mp4?token=gs_cWKIVmWQPG0dr6REVZcaHV08_NhpOYR_o2XY-u0LzKTMrNPsUVDo96PmfxsoFMXw4AXgFmhU3nmB4JptunDjHzkVB97AGOQ7asbasv4i-xr4jXrFaoRRP_8YF8i4u1Ch5MQI1eKK5UUlMHRNfpUzOzK_vsDQN-M56HULcwZIGgNpfo6mQMsV2VGQq4ci8Dm10BPx1mFnt3nvvGdIAhXgT6k-KdOM6-gtxAaPwKjdbOr46yiOqn6jkntDBuyoiqPDxbvFrgIAOGIHFcLeN_KXzLUauTcbW7ck4J6FImCIr2jTU9ci0z5SiS0pODXPsi6yCui8nWRUoex8F4rvVVw';
+const VIDEO_URL = 'https://cdn4.telesco.pe/file/eca474e16c.mp4?token=WA8iZu15AfqGZDk6aIFTHnu7OLy3RqZt5m7M695QQ3QnPLJgXlJjOsLKs5ZRnfS07hpIzdzoviJsyTHCS3RsD9JCRgY1W4mHbvpGBkozPWe7GpoghD5i1TaU_7eYapUDaVrFx3BgcMhvJR4DGjuRQA4rqm5km8iy_j57UXgi7QY6sw94UEvQZq2C4Wsg1JjFIUcuIgddP5b0MvA05VssorSjtWWRbh0XYki6Mpi3XstBdZS6TyuSBgQMPmnkr9BKGVORvKSRKIae6irbrmjzQVCAeVYjZSGzzbwhuS21a3Qu8GQFOvOR-_gU2Vyu8Eupi_mtrSdzhKbzg0zM8TpU_w';
 // ============================================
 
 // Optional: Custom filename (leave empty to auto-detect)
